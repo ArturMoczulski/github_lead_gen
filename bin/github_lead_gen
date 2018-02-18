@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require "thor"
+require File.expand_path('../../lib/github_lead_gen/cli', __FILE__)
+
+GithubLeadGen::CLI.start(ARGV)

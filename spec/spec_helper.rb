@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "github_lead_gen"
+require "byebug"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
